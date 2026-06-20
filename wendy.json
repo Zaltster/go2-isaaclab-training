@@ -1,0 +1,9 @@
+{
+    "appId": "go2-isaaclab-start",
+    "version": "0.1.0",
+    "entitlements": [
+        { "type": "gpu" },
+        { "type": "network", "mode": "host" },
+        { "type": "persist", "name": "go2-isaaclab-start-logs", "path": "/logs" }
+    ]
+}

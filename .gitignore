@@ -1,0 +1,72 @@
+# macOS / editor noise
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+*.whl
+
+# Isaac Lab / RL training artifacts
+logs/
+runs/
+wandb/
+outputs/
+checkpoints/
+artifacts/
+models/
+events.out.tfevents*
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# Wendy / Spark scratch exports and probes
+_tmp_spark*/
+wendy-device-write-check/
+
+# Exported media and large run bundles
+videos/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# Generated metrics/data dumps
+*.csv
+*.jsonl
+*.log
+*.tmp
