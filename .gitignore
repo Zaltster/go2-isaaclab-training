@@ -50,9 +50,14 @@ events.out.tfevents*
 # Wendy / Spark scratch exports and probes
 _tmp_spark*/
 wendy-device-write-check/
+*-export/
+*-listing/
+thor-storage-probe/
 
 # Exported media and large run bundles
 videos/
+metrics/
+exported_simulations/
 *.mp4
 *.mov
 *.avi
@@ -66,7 +71,18 @@ videos/
 *.zip
 
 # Generated metrics/data dumps
+go2_reward_over_time*
 *.csv
 *.jsonl
 *.log
 *.tmp
+*.READY
+READY
+manifest.txt
+
+# Local experiment clones / scratch workspaces
+autonomy_stack_go2/
+walk-these-ways-go2/
+thor-wtw-mujoco-video/
+wtw-go2-isaac-smoke/
+wtw-go2-isaac-walk/
