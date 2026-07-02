@@ -1,0 +1,12 @@
+{
+  "appId": "go2-wtw-hier-status-probe",
+  "version": "0.1.0",
+  "platform": "linux",
+  "entitlements": [
+    {
+      "type": "persist",
+      "name": "go2-isaaclab-start-logs",
+      "path": "/logs"
+    }
+  ]
+}

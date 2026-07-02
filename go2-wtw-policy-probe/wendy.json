@@ -1,0 +1,9 @@
+{
+  "appId": "go2-wtw-policy-probe",
+  "version": "0.1.0",
+  "platform": "linux",
+  "entitlements": [
+    { "type": "gpu" },
+    { "type": "network", "mode": "host" }
+  ]
+}
